@@ -8,7 +8,9 @@ Compiled Windows and Mac OSX versions can be downloaded here:
 
 [Windows Version](http://moebergjones.de/cndrop/CampusNetDrop-Windows.zip "Windows Version")
 
-[Mac Version](http://moebergjones.de/cndrop/CampusNetDrop-Windows.zip "Mac Version")
+[Mac Version](http://moebergjones.de/cndrop/CampusNetDrop-Mac.zip "Mac Version")
+
+Unzip and copy into a folder and run the application - CampusNetDrop.exe for Windows, App for Max OSX.
 
 To run it from the source of this repository:
 Download the source and run:
