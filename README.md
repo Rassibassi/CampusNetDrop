@@ -1,4 +1,4 @@
-CampusNetDrop CommandLine
+CampusNetDrop
 =========================
 This is a tiny application to synchronize the shared files of your courses, projects and groups from DTU CampusNet to your personal computer. After configuration of your login and your courses, the application will be able to download the shared files of these courses with the same structure as online. Every time you re-run the downloader it will check for new versions of already downloaded files and of course download new files.
 
