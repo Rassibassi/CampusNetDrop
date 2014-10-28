@@ -7,7 +7,7 @@ This is the GUI version, for the command line version for experienced users see 
 Compiled Windows and Mac OSX versions can be downloaded here:
 
 [Windows Version](http://moebergjones.de/cndrop/CampusNetDrop-Windows.zip "Windows Version")
-If you copy it into your C:\where\ever directory, you have to run it as admin.
+Copy it into your user folder. If you copy it into your C:\where\ever directory, you have to run it as admin.
 
 [Mac Version](http://moebergjones.de/cndrop/CampusNetDrop-Mac.zip "Mac Version")
 
