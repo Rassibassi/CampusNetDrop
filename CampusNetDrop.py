@@ -2,8 +2,11 @@
 import sys
 from cnDropUI import *
 from PyQt4 import QtCore, QtGui
-import ctypes
+
 myappid = 'com.rasmusjones.campusnetdrop.1'
+
+# for Windows Icon etc
+import ctypes
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 app = QtGui.QApplication(sys.argv)

@@ -1,3 +1,5 @@
+# py2exe compilation file
+
 from distutils.core import setup
 import py2exe
 
