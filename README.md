@@ -7,11 +7,12 @@ This is the GUI version, for the command line version for experienced users see 
 Compiled Windows and Mac OSX versions can be downloaded here:
 
 [Windows Version](http://moebergjones.de/cndrop/CampusNetDrop-Windows.zip "Windows Version")
-Copy it into your user folder. If you copy it into your C:\where\ever directory, you have to run it as admin.
+
+Windows Version: Copy it into your user folder. If you copy it into your C:\Programs\what\ever directory, you have to run it as admin.
 
 [Mac Version](http://moebergjones.de/cndrop/CampusNetDrop-Mac.zip "Mac Version")
 
-Unzip and copy into a folder and run the application - CampusNetDrop.exe for Windows, CampusNetDrop.app for Max OSX.
+Mac Version: Unzip and copy the folder 'CampusNetDrop' into your USER folder and start the application from there. Otherwise it will have some problems.
 
 To run it from the source of this repository:
 Download the source and run:
