@@ -136,6 +136,7 @@ class CampusNetDrop():
 						self.getFiles(root,"",to_download)
 						for download in to_download:
 							file_path = course['directory']+download['Path']+"/"+download['Name']
+							file_path = "/".join([x.strip() for x in file_path.split("/")])
 							if not ("Student folder" in file_path and int(course['studentfolder'])==0):
 								if os.path.isfile(file_path):
 									file_created = datetime.datetime.fromtimestamp(os.path.getctime(file_path))
@@ -162,7 +163,7 @@ class CampusNetDrop():
 
 	def createFolder(self,name,path):
 		"""Create folder if not already there"""
-		directory = path+"/"+name
+		directory = path+"/"+name.strip()
 		if not os.path.isdir(directory):
 			self.log.writeLog(108, directory)
 			os.makedirs(directory)
